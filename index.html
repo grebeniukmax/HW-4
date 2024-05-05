@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <!--Форма яка має бути у футері-->
+    <header>
+      <p class="subscribe">Підпишіться на розсилку</p>
+        <form class="form-to-form">
+          <ul class="ul-to-ul">
+            <li class="lll"><input type="email" class="emaiil" placeholder="E-mail"></li>
+            <li class="lll"><button class="buuton"><p class="len">Підписатися</p><svg href="symbol-defss.svg#icon-telegram" class="svgsvgsvg"></svg></button></li>
+          </ul>
+        </form>
+    </header>
+    <main>
+      <section>
+          <button data-modal-open>Модалка</button>
+      </section>
+    </main>
+    <footer></footer>
+    <div class="backmodal" data-modal>
+      <div class="modalka">
+          <div class="top"><button class="close-modal" data-modal-close><svg href="symbol-defs.svg#icon-cross"></svg></button>
+<p class="ppp">Залиште свої дані, ми вам передзвонимо</p>
+<div class="div-form">
+    <p class="p-form">Ім'я</p>
+    <form class="form">
+    <div class="form-div">
+      <svg href="symbol-defs.svg#icon-svgsvg"></svg>
+      <input class="input" type="tel">
+    </div>
+
+    <p class="p-form">Телефон</p>
+    <div class="form-div">
+      <svg href="symbol-defs.svg#icon-svgsvg"></svg>
+    <input class="input" type="tel">
+    </div>
+
+    <p class="p-form">Пошта</p>
+    <div class="form-div">
+      <svg href="symbol-defs.svg#icon-svgsvg"></svg>
+    <input class="input" type="email">
+    </div>
+
+    <p class="p-form">Коментар</p>
+    <textarea class="area" placeholder="Ваш Коментар"></textarea>
+</div>
+<div class="check-mod">
+<input type="checkbox" class="check">
+<p class="ppppp">Погоджуюся з розсилкою та приймаю <a class="aaa" href="">Умови договору</a></p>
+</div>
+<button class="button-mod">Відправити</button>
+</form>
+</div>
+</div>
+</div>
+<script src="modal.js"></script>
+</body>
+</html>
